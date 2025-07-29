@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+<body class="black">
+  <div class="create-wrapper">
+    <form class="create-container">
+      
+
+      <h2>Create Account</h2>
+
+      <div class="input-group">
+        <span class="material-icons">person</span>
+        <input type="text" placeholder="Username" required />
+      </div>
+
+      <div class="input-group">
+        <span class="material-icons">email</span>
+        <input type="email" placeholder="Email" required />
+      </div>
+
+      <div class="input-group">
+        <span class="material-icons">lock</span>
+        <input type="password" placeholder="Create Password" required />
+      </div>
+
+      <div class="input-group">
+        <span class="material-icons">lock</span>
+        <input type="password" placeholder="Confirm Password" required />
+      </div>
+
+    
+      <div class="alert error">Passwords do not match!</div>
+      <div class="alert success">Account created successfully!</div>
+
+      <button type="submit" class="btn"><a href="home.html">Sign Up</a></button>
+
+      <div class="extra">
+        Already have an account? <a href="#">Login</a><br />
+        By signing up, you agree to our <a href="#">Terms & Privacy</a>.
+      </div>
+    </form>
+  </div>
+</body>
+</html>
