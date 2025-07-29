@@ -779,6 +779,12 @@ li:hover {
 }
 
 .overview-plans-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem; /* space between items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
   max-height: 320px;
   overflow: scroll;
 }
