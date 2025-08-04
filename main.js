@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       setTimeout(() => {
         window.location.href = "home.html";
-      }, 1500);
+      }, 500);
 
       form.reset();
     });
@@ -257,4 +257,5 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 });
+
 
